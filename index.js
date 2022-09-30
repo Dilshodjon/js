@@ -27,7 +27,17 @@
 // person.age = 45
 // console.log(person);
 // array
-let selectedColor = ["oq","qora"];
-selectedColor[2] = "yashil";
+// let selectedColor = ["oq","qora"];
+// selectedColor[2] = "yashil";
 
-console.log(selectedColor.length);
+// console.log(selectedColor.length);
+
+// function greet(lastName, firstName) {
+//   console.log("Assalomu aleykum "+lastName+" "+firstName);
+// }
+// greet("Zumradhon","Suvilon");
+  
+function square(number){
+  return number*number;
+}
+ console.log(square(5));
