@@ -37,7 +37,19 @@
 // }
 // greet("Zumradhon","Suvilon");
   
-function square(number){
-  return number*number;
-}
- console.log(square(5));
+// function square(number){
+//   return number*number;
+// }
+//  console.log(square(5));
+// let person = "klient"
+// let result = person === "klient" ? "bonus 20%": "bonus 5%";
+// console.log(result);
+let date = new Date();
+let hors = date.getHours();
+let minut = date.getMinutes();
+console.log("hours: ",hors, "minut ", minut);
+let isOffisOpen = (hors >= 9 || minut >= 0);
+let isOffissClosed = !isOffisOpen;
+
+console.log("ofis ocjiq", isOffisOpen);
+console.log("ofis yopoq", isOffissClosed);
