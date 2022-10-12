@@ -102,3 +102,8 @@ switch (word) {
     console.log("nomalum soz")
     break;
 }
+for (let index = 0; index < 5; index++) {
+  if (index%2 !==0)
+  console.log("{aqbh",index);
+  
+}
