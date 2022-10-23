@@ -88,22 +88,43 @@
 // else{
 //   console.log("noma`lum so`z")
 // }
-let word;
-word = "book"
+// let word;
+// word = "book";
 
-switch (word) {
-  case "pencle":
-    console.log("Qalam");
+// switch (word) {
+//   case "pencle":
+//     console.log("Qalam");
+//     break;
+//   case "book":
+//     console.log("kitob");
+//     break;
+//   default:
+//     console.log("nomalum soz");
+//     break;
+// }
+// for (let index = 1; index <= 100; index *= 3) {
+//   // if (index%2 !==0)
+//   console.log("aqbh", index);
+// }
+// let j = 1;
+// while (j <= 100) {
+//   console.log("aqbh", j);
+//   j *= 3;
+// }
+let j = 1;
+do {
+  if (j === 27) {
     break;
-  case "book":
-    console.log("kitob")
-    break;
-  default:
-    console.log("nomalum soz")
-    break;
-}
-for (let index = 1; index <=5; index++) {
-  // if (index%2 !==0)
-  console.log("aqbh",index);
-  
+  }
+  console.log("aqbh", j);
+  j *= 3;
+} while (j <= 100);
+let i = 1;
+while (i <= 10) {
+  if (i % 2 !== 0) {
+    i++;
+    continue;
+  }
+  console.log(i);
+  i++;
 }
