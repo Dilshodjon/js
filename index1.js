@@ -2,7 +2,7 @@ const TezlikMax = 70;
 const km_cheklov = 5;
 const max_shtraf = 12;
 
-tezlikShtraf(150);
+tezlikShtraf(95);
 
 function tezlikShtraf(tezlik) {
   if (tezlik < TezlikMax) console.log("ok");
@@ -14,3 +14,7 @@ function tezlikShtraf(tezlik) {
     }
   }
 }
+
+
+
+
