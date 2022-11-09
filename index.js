@@ -111,20 +111,32 @@
 //   console.log("aqbh", j);
 //   j *= 3;
 // }
-let j = 1;
-do {
-  if (j === 27) {
-    break;
-  }
-  console.log("aqbh", j);
-  j *= 3;
-} while (j <= 100);
-let i = 1;
-while (i <= 10) {
-  if (i % 2 !== 0) {
-    i++;
-    continue;
-  }
-  console.log(i);
-  i++;
+// let j = 1;
+// do {
+//   if (j === 27) {
+//     break;
+//   }
+//   console.log("aqbh", j);
+//   j *= 3;
+// } while (j <= 100);
+// let i = 1;
+// while (i <= 10) {
+//   if (i % 2 !== 0) {
+//     i++;
+//     continue;
+//   }
+//   console.log(i);
+//   i++;
+// }
+let nambe = zipMax(2, 6);
+console.log(nambe);
+
+function zipMax(a, b) {
+  return a > b ? a : b;
+  // if (a < b) return a;
+  // else return b;
+}
+console.log(plaseCase(20, 40));
+function plaseCase(width, height) {
+  return (width < height);
 }
